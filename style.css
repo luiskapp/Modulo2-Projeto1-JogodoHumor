@@ -1,37 +1,92 @@
-body{
-    background-image: url(https://img.elo7.com.br/product/zoom/21B85E6/papel-parede-autocolante-nuvem-branca-fundo-azul-clarinho-papel-de-parede-para-sala.jpg);
-    background-position:inherit; 
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
+.container_txt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.container_btm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+body{
+    background-image: url(./Imagens/nuvem.jpg);
+    background-position:inherit;
+}
 h1{
     font-family: KG What the Teacher Wants;
     color: red;
     text-align: center;
     font-size: 500%;
+    margin-top: -25px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    -webkit-text-stroke-color: #000; 
 }
 h2{
     font-family: KG What the Teacher Wants;
     color: yellow;
     text-align: center;
     font-size: 200%;
+    margin-top: 0px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    -webkit-text-stroke-color: #000;   
 }
-p{
+h3{
     font-family: lemon milk;
-    font-size: 80%;
+    text-align: center;
+    font-size: 100%;
+    background-color:rgb(240, 235, 175);
+    padding: 5px;
+    border: 2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+h4{
+    font-family: lemon milk;
+    text-align: center;
+    font-size: 100%;
+    background-color:rgb(192, 190, 168);
+    padding: 5px;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.cab{
+    display: flex;
+    flex-direction: column;
+}
+.copyright {
+	color:black;
+	font-size: 13px;
+	margin: 20px 0 0;
+    background-color:rgb(243, 232, 85);
+    text-align: center;
 }
 
-figure{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+p{
+    font-family: lemon milk;
+    font-size: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color:darksalmon;
+}
+button{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color:rgb(243, 232, 85) ;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(240, 235, 175); 
 }
