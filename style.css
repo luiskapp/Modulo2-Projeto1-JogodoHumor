@@ -1,31 +1,33 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.container_txt {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-.container_btm{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
 body{
     background-image: url(./Imagens/nuvem.jpg);
     background-position:inherit;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 10px;
+}
+.item{
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+}
+.card{
+    max-width: 360px;
+    max-height: 400px;
+    background-color: darksalmon;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 h1{
     font-family: KG What the Teacher Wants;
     color: red;
     text-align: center;
     font-size: 500%;
-    margin-top: -25px;
+    margin-top:0px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000; 
 }
@@ -35,12 +37,14 @@ h2{
     text-align: center;
     font-size: 200%;
     margin-top: 0px;
+    margin-bottom: 0px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;   
 }
 h3{
     font-family: lemon milk;
-    text-align: center;
+    color: rgb(38, 43, 48);
+    text-align: justify;
     font-size: 100%;
     background-color:rgb(240, 235, 175);
     padding: 5px;
@@ -51,10 +55,11 @@ h3{
 }
 h4{
     font-family: lemon milk;
-    text-align: center;
+    color: rgb(38, 43, 48);
+    text-align: justify;
     font-size: 100%;
-    background-color:rgb(192, 190, 168);
     padding: 5px;
+    background-color:rgb(192, 190, 168);
     border: 2px solid black;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -62,31 +67,38 @@ h4{
 }
 .cab{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
 }
-.copyright {
-	color:black;
-	font-size: 13px;
-	margin: 20px 0 0;
-    background-color:rgb(243, 232, 85);
-    text-align: center;
+.cab2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
-
 p{
     font-family: lemon milk;
     font-size: 100%;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color:darksalmon;
-}
+    padding: 10px;
+} 
 button{
     padding: 10px;
     border: 2px solid black;
     border-radius: 25px;
     background-color:rgb(243, 232, 85) ;
+    margin-top: 50px;
 }
 button:hover{
     cursor: pointer;
     background-color:rgb(240, 235, 175); 
+}
+.copyright {
+	color:black;
+	font-size: 13px;
+	margin: 20px 0 0;
+    background-color:cornflowerblue;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
 }
