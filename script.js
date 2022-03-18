@@ -11,9 +11,21 @@ alterar.addEventListener("click", function(){
     image.src = './Imagens/monica4.gif'  
     txt.innerText = 'Rindo das gracinhas do cebolinha.' 
     alterar.value = 'terceiro' 
+  } else if (alterar.value == 'terceiro') {
+    image.src = './Imagens/monica6.gif'  
+    txt.innerText = 'Passeando com o monicão.' 
+    alterar.value = 'quarto' 
+  } else if (alterar.value == 'quarto') {
+    image.src = './Imagens/monica7.gif'  
+    txt.innerText = 'Furiosa com cebolinha.' 
+    alterar.value = 'quinto' 
+  } else if (alterar.value == 'quinto') {
+    image.src = './Imagens/monica8.gif'  
+    txt.innerText = 'Feliz da vida!' 
+    alterar.value = 'sexto' 
   } else {
     image.src = './Imagens/monica1.gif'
-    txt.innerText = 'Furiosa porque o cebolinha chamou de dentuça' 
+    txt.innerText = 'Nervosa porque o cebolinha chamou de dentuça' 
     alterar.value = 'primeiro' 
   }
 })

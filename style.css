@@ -1,5 +1,5 @@
 body{
-    background-image: url(./Imagens/nuvem.jpg);
+    background-image: url("./Imagens/nuvem.jpg");
     background-position:initial;
     margin-top:0px;
     margin-left: 0px;
