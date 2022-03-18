@@ -11,11 +11,15 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    box-shadow: 0 5px rgba(168, 180, 184, 0.534);;
 }
 .itemtopo{
     align-self: center;
     justify-self: center;
     flex-direction: row;
+}
+.img{
+    margin-top: 15px;
 }
 .container{
     display: flex;
@@ -35,7 +39,8 @@ body{
     margin-top: 10px;
     background-color: darksalmon;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(168, 180, 184, 0.534);;
 }
 h1{
     font-family: KG What the Teacher Wants;
@@ -115,7 +120,8 @@ button{
     border: 2px solid black;
     border-radius: 25px;
     background-color:rgb(243, 232, 85) ;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 button:hover{
     cursor: pointer;
